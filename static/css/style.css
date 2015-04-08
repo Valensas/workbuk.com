@@ -1845,6 +1845,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   background: rgba(235, 237, 238, 0.76);
 }
 .footer-menu{
+  color: #e74c3c;
   list-style: none;
   margin:0;
   padding: 0;
