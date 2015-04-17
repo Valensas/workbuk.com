@@ -6,10 +6,6 @@
 <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1">
 <meta name="HandheldFriendly" content="True" />
 <meta name="MobileOptimized" content="320" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="js/ios-orientationchange-fix.min.js"></script>
-	
-
 <style type="text/css">
 
 .img_class{
@@ -141,6 +137,7 @@ img[usemap]{
 
 
 <body>
+
 <div>
   <div>
 		<div class="login"></div>
@@ -160,21 +157,21 @@ img[usemap]{
   </div>
 </div>
 		<map name="Map">
-        	<area shape="rect" coords="304,651,373,678" href="mailto:info@workbuk.com?subject=Buy Individual Portfolio">
-        	<area shape="rect" coords="584,651,655,678" href="mailto:info@workbuk.com?subject=Buy Professional Portfolio">
-        	<area shape="rect" coords="859,651,930,678" href="mailto:info@workbuk.com?subject=Request Quote">
-        </map>	
-        <map name="contact">
+        	<area shape="rect" coords="362,774,442,804" href="mailto:info@workbuk.com?subject=Buy Individual Portfolio">
+        	<area shape="rect" coords="696,774,772,804" href="mailto:info@workbuk.com?subject=Buy Professional Portfolio">
+        	<area shape="rect" coords="1020,774,1098,804" href="mailto:info@workbuk.com?subject=Request Quote">
         	<area shape="rect" coords="916,66,1047,102" href="mailto:info@workbuk.com?subject=Contact">
       	</map>
+		<map name="contact">
+        	<area shape="rect" coords="1085,78,1240,114" href="mailto:info@workbuk.com?subject=Contact">
+      	</map>
         
-      	
-      	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="ios-orientationchange-fix.min.js"></script>
 <script src="jquery.rwdImageMaps.min.js"></script>
 <script>
 $(document).ready(function(e) {
 	$('img[usemap]').rwdImageMaps();
-	
 	$('area').on('click', function() {
 	});
 });
