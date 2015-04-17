@@ -1,36 +1,175 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8" />
-	<title>WorkBuk</title>
-	<meta name="HandheldFriendly" content="True" />
-	<meta name="MobileOptimized" content="320" />
-	<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1" />
-	<script src="ios-orientationchange-fix.min.js"></script>
-	<style>
-	div {
-		width: 100%;
-	}
-	img[usemap] {
-		border: none;
-		height: auto;
-		max-width: 100%;
-		width: auto;
-	}
-	</style>
+<!doctype html>
+<html><head>
+<meta charset="UTF-8">
+<meta name="HandheldFriendly" content="True">
+<title>WorkBuk</title>
+<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1">
+<meta name="HandheldFriendly" content="True" />
+<meta name="MobileOptimized" content="320" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/ios-orientationchange-fix.min.js"></script>
+	
+
+<style type="text/css">
+
+.img_class{
+	height: auto;
+	max-width: 100%;
+	width: auto;
+}
+
+.login {
+	
+	margin-right: 20px;
+	background-color:#646464;
+	background-position:top
+	padding:0;
+	text-align: right;
+	width: 100%;
+	margin:0;
+	height:40px;
+}
+.divmain {
+	background-image:url(images/back01.jpg);
+	background-position:top;
+	text-align: center;
+	width: 100%;
+}
+
+.divmain03 {
+	background-image:url(images/back03.jpg);
+	background-position:top;
+	text-align: center;
+	width: 100%;
+}
+
+.divmain04 {
+	background-image:url(images/back04.jpg);
+	background-position:top;
+	text-align: center;
+	width: 100%;
+}
+.divmain05 {
+	background-image:url(images/back05.jpg);
+	background-position:top;
+	text-align: center;
+	width: 100%;
+}
+
+.divmain06 {
+	background-image:url(images/back06.jpg);
+	background-position:top;
+	text-align: center;
+	width: 100%;
+}
+
+.divmain07 {
+	background-image:url(images/back07.jpg);
+	background-position:top;
+	text-align: center;
+	width: 100%;
+}
+
+.divmain08 {
+	background-image:url(images/back08.jpg);
+	background-position:top;
+	text-align: center;
+	width: 100%;
+}
+
+.divmain09 {
+	background-image:url(images/back09.jpg);
+	background-position:top;
+	text-align: center;
+	width: 100%;
+}
+
+.divmain10 {
+	background-image:url(images/back10.jpg);
+	background-position:top;
+	text-align: center;
+	width: 100%;
+}
+
+.divmain11 {
+	background-image:url(images/back11.jpg);
+	background-position:top;
+	text-align: center;
+	width: 100%;
+}
+
+.divmain12 {
+	background-image:url(images/back12.jpg);
+	background-position:top;
+	text-align: center;
+	width: 100%;
+}
+
+.divmain13 {
+	background-image:url(images/back13.jpg);
+	background-position:top;
+	text-align: center;
+	width: 100%;
+}
+
+
+
+
+.divempty {
+	background-color:#FFFFFF;
+	background-position:top;
+	text-align: center;
+	width: 100%;
+}
+
+
+body {
+	margin: 0;
+}
+
+
+img[usemap]{
+    outline: none;
+	border: none;
+	height: auto;
+	max-width: 100%;
+	width: auto;
+}
+
+</style>
 </head>
+
+
 <body>
 <div>
-	<img src="workbuk.jpg" width="1469" height="7771" usemap="#workbuk" alt="" />
-	<map name="workbuk">
-		<area shape="rect" coords="359,7137,442,7169" href="mailto:info@workbuk.com?subject=Buy Individual Portfolio" alt="Buy Individual Portfolio" />
-		<area shape="rect" coords="695,7137,777,7169" href="mailto:info@workbuk.com?subject=Buy Professional Portfolio" alt="Buy Professional Portfolio" />
-		<area shape="rect" coords="1021,7137,1104,7169" href="mailto:info@workbuk.com?subject=Request a Quote" alt="Request a Quote" />
-		<area shape="rect" coords="1090,7378,1240,7412" href="mailto:info@workbuk.com?subject=Contact" alt="Contact" />
-</map>
+  <div>
+		<div class="login"></div>
+		<div class="divmain"> <img src="images/01.jpg" class="img_class" /></div>
+		<div class="divempty"><img src="images/02.jpg" class="img_class"/></div>
+		<div class="divmain03"><img src="images/03.jpg" class="img_class"/></div>
+    	<div class="divmain04"><img src="images/04.jpg" class="img_class"/></div>
+    	<div class="divmain05"><img src="images/05.jpg" class="img_class"/></div>
+    	<div class="divmain06"><img src="images/06.jpg" class="img_class"/></div>
+    	<div class="divmain07"><img src="images/07.jpg" class="img_class"/></div>
+    	<div class="divmain08"><img src="images/08.jpg" class="img_class"/></div>
+    	<div class="divmain09"><img src="images/09.jpg" class="img_class"/></div>
+    	<div class="divmain10"><img src="images/10.jpg" class="img_class"/></div>
+    	<div class="divmain11"><img src="images/11.jpg" usemap="#Map" class="img_class"/></div>
+    	<div class="divmain12"><img src="images/12.jpg" usemap="#contact" class="img_class"/></div>
+    	<div class="divmain13"><img src="images/13.jpg" class="img_class" hidefocus="true"/></div>
+  </div>
 </div>
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<map name="Map">
+        	<area shape="rect" coords="304,651,373,678" href="mailto:info@workbuk.com?subject=Buy Individual Portfolio">
+        	<area shape="rect" coords="584,651,655,678" href="mailto:info@workbuk.com?subject=Buy Professional Portfolio">
+        	<area shape="rect" coords="859,651,930,678" href="mailto:info@workbuk.com?subject=Request Quote">
+        </map>	
+        <map name="contact">
+        	<area shape="rect" coords="916,66,1047,102" href="mailto:info@workbuk.com?subject=Contact">
+      	</map>
+        
+      	
+      	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="jquery.rwdImageMaps.min.js"></script>
 <script>
 $(document).ready(function(e) {
@@ -41,5 +180,5 @@ $(document).ready(function(e) {
 });
 </script>
 </body>
-</html>
 
+</html>
