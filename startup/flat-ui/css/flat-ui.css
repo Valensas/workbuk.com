@@ -400,6 +400,7 @@ a.bg-danger:hover {
 }
 a.center-block.img-responsive.workbuk {
   text-align: center;
+  margin-left: 10%;
 }
 .page-header {
   padding-bottom: 14px;
