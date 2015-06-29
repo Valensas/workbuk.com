@@ -568,6 +568,12 @@ fieldset[disabled] .btn {
 .btn-hg.btn > [class^="fui-"] {
   top: 2px;
 }
+
+.sign-button {
+    display:inline-block;
+}
+
+
 .btn-default {
   color: #ffffff;
   background-color: #bdc3c7;
@@ -680,6 +686,8 @@ fieldset[disabled] .btn-info.active {
   border-color: #3498db;
 }
 .btn-danger {
+
+  min-width: 170px;
   color: #ffffff;
   background-color: #d62929;
 }
@@ -720,6 +728,7 @@ fieldset[disabled] .btn-danger.active {
   color: #ffffff;
   background-color: #2ecc71;
 }
+
 .btn-success:hover,
 .btn-success:focus,
 .btn-success:active,
@@ -793,6 +802,7 @@ fieldset[disabled] .btn-warning.active {
 .btn-inverse {
   color: #ffffff;
   background-color: #34495e;
+  min-width: 170px;
 }
 .btn-inverse:hover,
 .btn-inverse:focus,
