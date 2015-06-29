@@ -571,6 +571,7 @@ fieldset[disabled] .btn {
 
 .sign-button {
     display:inline-block;
+    margin: .2em;
 }
 
 
