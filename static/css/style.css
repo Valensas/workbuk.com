@@ -17,7 +17,32 @@ textarea {
   font-size: 14px;
 }
 
-
+.btn-clear {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: none;
+  border: 2px solid #34495e;
+  font-size: 17px;
+  font-weight: normal;
+  color: #7f8c8d;
+  font-weight: 500;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 8px 28px 8px;
+  color: #34495e;
+}
+.btn-clear:hover,
+.btn-clear:focus {
+  background: #63778b;
+    border-color: #63778b;
+  color: #fff;
+}
+.btn-clear:active,
+.btn-clear.active {
+  border-color: #63778b;
+  background: #63778b;
+  color: rgba(255, 255, 255, 0.75);
+}
 }
 logo {
   padding-left: 0;
@@ -279,6 +304,9 @@ footer {
 }
 .bg-silver {
   background-color: #bdc3c7;
+}
+.bg-lightsilver {
+  background-color: #EFEFEF;
 }
 .bg-concrete {
   background-color: #95a5a6;
@@ -1702,7 +1730,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   .content-19 .col-sm-7 .quote .quote-author {
     font-size: 11px;
     font-weight: normal;
-    color: #7f8c8d;
+    color: #ffabab;
     letter-spacing: 0;
   }
   .content-19 .col-sm-7 .quote .quote-author .quote-author-photo {
@@ -1941,10 +1969,12 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   padding-right: 10px;
 }
 .price-1 .plan b {
-  color: #7f8c8d;
+    padding-top: 20px;
+    font-size: 40px;
+    color: #d62929;
 }
 .price-1 .plan .title {
-  color: #d62929;
+  color: #2c3e50;
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 8px;
@@ -1962,6 +1992,26 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .price-1 .plan .description b {
   font-weight: 500;
 }
+
+.price-1 .plan .pricedescription1 {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+  line-height: 20px;
+  text-align: center;
+    font-weight:normal;
+  width: 100%;
+}
+
+.price-1 .plan .pricedescription2 {
+  padding-top: 5px;
+  line-height: 20px;
+  text-align: center;
+    font-weight:200;
+    font-size: 14px;
+  width: 100%;
+}
+
 .price-1 .plan .btn {
   min-width: 170px;
 }
