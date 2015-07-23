@@ -129,7 +129,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </div>
                     <div class="sign-button">
 
-                 <a id ="downbttn" class="btn btn-inverse btn-clear" href="#">Download</a>
+                 <a id ="downbttn" class="btn btn-inverse btn-clear" href="download/download.html">Download</a>
                 
                     </div>
                 </div>
@@ -672,7 +672,7 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 }
 else
 {
-       $("#downbttn").attr("href", "https://s3-eu-west-1.amazonaws.com/valensasdownload/workbuk_manager_101.zip");
+    /*   $("#downbttn").attr("href", "https://s3-eu-west-1.amazonaws.com/valensasdownload/WorkbukInstaller.dmg"); */
 
 }
 
@@ -684,8 +684,8 @@ else
                 window.open( $(this).attr("href") );
 
                 //redirect current page to success page
-                window.location="download/download.html";
-                window.focus();
+            //    window.location="download/download.html";
+               window.focus();
     }
 );
 
