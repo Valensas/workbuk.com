@@ -129,7 +129,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </div>
                     <div class="sign-button">
 
-                 <a id ="downbttn" class="btn btn-inverse btn-clear" href="download/download.html " target="_blank">Download</a>
+                 <a id ="downbttn" class="btn btn-inverse btn-clear" href="#">Download</a>
                 
                     </div>
                 </div>
@@ -563,13 +563,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
             
 
-            
-
-            
-
-     
-            
-
 <footer class="footer-10">    
 
     <div class="subscribe-form bg-midnight-blue">
@@ -683,8 +676,19 @@ else
 
 }
 
-        $('#downbttn').click(function{window.location = "download/download.html"; window.onload = function() { setTimeout("Redirect()",9000); } }; return false;});
-        
+        $('#downbttn').click(
+                function(e) {   
+                  e.preventDefault();
+
+                //open download link in new page
+                window.open( $(this).attr("href") );
+
+                //redirect current page to success page
+                window.location="download/download.html";
+                window.focus();
+    }
+);
+
             </script>
 
             <script src="startup/common-files/js/startup-kit.js"></script>
