@@ -129,7 +129,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </div>
                     <div class="sign-button">
 
-                 <a id ="downbttn" class="btn btn-inverse btn-clear" href="https://portal.workbuk.com/#/signup " target="_blank">Download</a>
+                 <a id ="downbttn" class="btn btn-inverse btn-clear" href="download/download.html " target="_blank">Download</a>
                 
                     </div>
                 </div>
@@ -671,6 +671,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
             <script src="startup/common-files/js/froogaloop.min.js"></script>
             <script type="text/javascript">
+
+
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
      $("#downbttn").attr("href", "https://itunes.apple.com/us/app/workbuk/id993641579?mt=8");
 
@@ -678,6 +680,8 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 else
 {
        $("#downbttn").attr("href", "https://s3-eu-west-1.amazonaws.com/valensasdownload/workbuk_manager_101.zip");
+       
+       $('#downbttn').click(function{window.location = "download/download.html"; window.onload = function() { setTimeout("Redirect()",9000); } }; return false;});
 
 }
             </script>
